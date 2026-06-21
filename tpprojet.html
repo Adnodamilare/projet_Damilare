@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenue sur mon site</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        header{
+            background-color: rgb(23, 23, 97);
+        }
+
+
+        .logo {
+            height: 100px;
+            width: 100px;
+            object-fit: contain;
+            transition: transform 0.2s;
+        }
+
+        .logo:active {
+            transform: scale(1.5);
+        }
+
+        .monimage {
+            height: 400px;
+            object-fit: cover;
+            transition: height 0.2s;
+        }
+
+        .monimage:hover {
+            height: 410px;
+        }
+
+        .nom {
+            font-size: 20px;
+            padding: 10px;
+            text-decoration: none;
+            transition: all 0.2s;
+            color: yellow;
+        }
+
+        .nom:hover {
+            color: white !important;
+            border-radius: 10px;
+            background-color: green;
+            font-size: 25px;
+        }
+    </style>
+</head>
+
+<body class="text-center bg-light pb-5">
+
+    <header class="container-fluid d-flex align-items-center justify-content-between p-3 shadow-sm mb-4">
+        <div>
+            <a href="https://www.uac.bj/" target="_blank">
+                <img src="uac.jpg" alt="Logo UAC" class="logo">
+            </a>
+        </div>
+        
+        <div class="flex-grow-1 mx-3 pb-2">
+            <h1 class="h3" style="color: white;">Bienvenue dans mon site web <br> 
+                <a href="#moi" class="nom fw-bold" target="affiche">OSSOUNLANAN Adonaïs</a>
+            </h1>
+        </div>
+        
+        <div>
+            <a href="https://eneam.uac.bj/" target="_blank">
+                <img src="eneam.jpg" alt="Logo ENEAM" class="logo">
+            </a>
+        </div>
+    </header>
+
+    <div class="container">
+        
+        <section class="mb-5">
+            <h2 class="h4 text-dark mb-3">I-Information personnelle</h2>
+            
+            <div class="row justify-content-center mb-4">
+                <div class="col-10 col-sm-6 col-md-4 text-start bg-white p-3 border rounded shadow-sm">
+                    <p class="mb-0">
+                        <strong>Nom :</strong> OSSOUNLANAN<br>
+                        <strong>Prénom :</strong> Adonaïs<br>
+                        <strong>Contact :</strong> +229 0193452675
+                    </p>
+                </div>
+            </div>
+
+            <div class="mb-4">
+                <a href="tp1.html">
+                    <img src="OSSADNO.jpg" alt="Photo de Adonaïs" class="monimage img-fluid rounded shadow">
+                </a>
+            </div>
+        </section>
+
+        <section class="row justify-content-center text-start mb-5">
+            <div class="col-10 col-sm-6 col-md-4 bg-white p-4 border rounded shadow-sm">
+                
+                <h2 class="h4 text-dark mb-2">II-Mes diplômes</h2>
+                <ol>
+                    <li>CEP 2018</li>
+                    <li>BEPC 2022</li>
+                    <li>DT/IMI 2025</li>
+                </ol>
+                
+                <h2 class="h4 text-dark mb-2">III-Mes loisirs</h2>
+                <ul >
+                    <li>Sport</li>
+                    <li>Musique</li>
+                    <li>Danse</li>
+                </ul>
+                
+            </div>
+        </section>
+
+        <section id="moi" class="row justify-content-center text-justify">
+            <div class="col-12 col-md-8 bg-white p-3 border rounded shadow-sm">
+                <p style="text-align: justify;" class="text-dark">
+                    Je m'appelle <strong>OSSOUNLANAN Adonaïs Olouwa Damilare</strong>, né le 02 Septembre 2007 à Kétou. J'ai eu mon CEP en 2018, mon BEPC en 2022 et le diplôme de technicien en installation et maintenance en informatique DT/IMI en 2025. Je poursuis mes études en Administrateur des réseaux informatiques pour être ingénieur en informatique, administrer des réseaux et mettre mes compétences au service de mon pays.
+                </p>
+                <p class="text-dark" style="text-align: justify;">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus hic unde optio eligendi. Mollitia explicabo sunt, minus magnam amet, praesentium blanditiis quos similique id ducimus quo aliquid corrupti placeat nam? Assumenda itaque dolores inventore nulla iusto adipisci, in velit perferendis sint recusandae dolorem nesciunt consectetur facere nostrum ea!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora reprehenderit modi dignissimos quia fuga quas accusantium molestiae atque sequi ex hic adipisci eligendi, architecto consequatur quam sit ratione voluptatibus dolore!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam sed velit praesentium ratione doloremque perspiciatis earum, dolorum error quas dolore minus? Et non dolores laudantium aperiam quaerat autem facilis fugiat?
+                </p>
+            </div>
+        </section>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

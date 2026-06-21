@@ -1,0 +1,43 @@
+.klm{
+            margin-right: 20px;
+            color: #FFFFFF;
+            margin-left: 10px;
+        }
+        .zone2{
+            background-color:#EFEFEF;
+        }
+        body {
+            background-color: #f4f6f9;
+            color: #333;
+            font-family: 'poppins';
+
+        }
+        .artitle{
+            background-color: #29404E;
+            margin-bottom: 10px;
+            padding: 10px;
+        }
+        .conteneur1 {
+            background-color: #193141;
+            color: #f8fafc;
+            min-height: 100vh;
+        }
+        .plan{
+            color: white;
+        }
+        .mon_profil {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+        .titre {
+            padding: 10px;
+            color: #0f172a;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+        }
+        .artitle .titre {
+            border-bottom: 2px solid #38bdf8;
+            color: #38bdf8;
+        }
