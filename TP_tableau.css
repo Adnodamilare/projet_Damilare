@@ -23,12 +23,12 @@ td {
 
 .IG {
     display: inline-block;
-    transform: rotate(320deg);
+    transform: rotate(-15deg);
 }
 
 .epac {
     display: inline-block;
-    transform: rotate(45deg);
+    transform: rotate(30deg);
     border: none;
     margin-top: 20px;
   
