@@ -52,9 +52,7 @@ em {
 strong {
     color: red;
 }
-
-ul
-
+.img
 /* Ma liste aura des puces en forme de dossiers */
     {
     list-style-image: url("icone2.png");
